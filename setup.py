@@ -12,6 +12,10 @@ cfg = {
     "packages": [
         "unimed"
     ],
+    "install_requires": [
+        "requests",
+        "lxml",
+    ],
 }
 
 setup(**cfg)
